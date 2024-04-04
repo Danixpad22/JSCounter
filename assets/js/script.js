@@ -1,5 +1,6 @@
 
 //Creo gli elementi
+
 const bodyElement = document.body;
 const header = document.createElement('div');
 const title = document.createElement('h1');
@@ -8,6 +9,8 @@ const plusButton = document.createElement('button');
 const counterText = document.createElement('p');
 const minusButton = document.createElement('button');
 const resetButton = document.createElement('button');
+const footer = document.createElement('footer');
+const textFooter = document.createElement('p');
 
 //Aggiungo classi per modifca stili css
 header.classList.add('header-style');
@@ -17,13 +20,16 @@ plusButton.classList.add('button-style-plus-minus');
 minusButton.classList.add('button-style-plus-minus');
 counterText.classList.add('counter-text-style');
 resetButton.classList.add('button-style');
+footer.classList.add('footer-style');
+textFooter.classList.add('text-footer-style');
 
 //Aggiunto testo
 title.textContent = 'COUNTER';
 plusButton.textContent = '+';
 minusButton.textContent = '-';
-counterText.textContent= '0';
-resetButton.textContent= 'Reset';
+counterText.textContent = '0';
+resetButton.textContent = 'Reset';
+textFooter.textContent = '© 2024 Copyright: Daniele Padovani'
 
 //Appendo al body
 bodyElement.appendChild(header);
@@ -34,7 +40,8 @@ divElement.appendChild(plusButton);
 divElement.appendChild(counterText);
 divElement.appendChild(minusButton);
 divElement.appendChild(resetButton);
-
+footer.appendChild(textFooter);
+bodyElement.appendChild(footer);
 //funzione counter
 
 let counter = 0;
