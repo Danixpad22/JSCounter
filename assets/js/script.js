@@ -1,6 +1,7 @@
 
 //Creo gli elementi
 const bodyElement = document.body;
+const header = document.createElement('div');
 const title = document.createElement('h1');
 const divElement = document.createElement('div');
 const plusButton = document.createElement('button');
@@ -9,8 +10,7 @@ const minusButton = document.createElement('button');
 const resetButton = document.createElement('button');
 
 //Aggiungo classi per modifca stili css
-
-
+header.classList.add('header-style');
 title.classList.add('title-style');
 divElement.classList.add('container-style');
 plusButton.classList.add('button-style-plus-minus');
@@ -26,8 +26,10 @@ counterText.textContent= '0';
 resetButton.textContent= 'Reset';
 
 //Appendo al body
+bodyElement.appendChild(header);
 bodyElement.appendChild(title);
 bodyElement.appendChild(divElement);
+header.appendChild(title);
 divElement.appendChild(plusButton);
 divElement.appendChild(counterText);
 divElement.appendChild(minusButton);
