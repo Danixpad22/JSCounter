@@ -1,0 +1,41 @@
+
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+.title-style {
+  text-align: center;
+  color:  red;
+  padding: 10px;
+}
+
+.button-style-plus-minus {
+  width: 50px;
+  padding: 16px;
+  margin: 10px;
+  background-color: lightblue;
+  border: none;
+  font-size: 22px;
+  color: white;
+  border-radius: 10px;
+}
+
+.button-style {
+  padding: 16px;
+  margin: 10px;
+  background-color: lightblue;
+  border: none;
+  font-size: 22px;
+  color: white;
+  border-radius: 10px;
+}
+
+.container-style {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter-text-style {
+  font-size: 26px;
+}
