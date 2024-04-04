@@ -1,33 +1,50 @@
 
 body {
-  background-color: rgb(231, 231, 231);
+  font-family: 'roboto', 'arial';
+  background-color: rgb(100, 171, 247)
 }
 
 .title-style {
+  margin-top: 10px;
+  font-size: 45px;
   text-align: center;
-  color:  red;
+  color:  white;
   padding: 10px;
 }
 
 .button-style-plus-minus {
-  width: 50px;
+  width: 70px;
   padding: 16px;
   margin: 10px;
-  background-color: lightblue;
+  background-color: rgb(61, 112, 221);
   border: none;
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 35px;
   color: white;
   border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
 }
 
 .button-style {
+  font-family: 'roboto','arial';
   padding: 16px;
-  margin: 10px;
-  background-color: lightblue;
+  margin-top: 40px;
+  background-color: rgb(61, 112, 221);
   border: none;
-  font-size: 22px;
+  font-size: 35px;
   color: white;
   border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.button-style-plus-minus:active {
+  opacity: 0.7;
+}
+
+.button-style:active {
+  opacity: 0.7;
 }
 
 .container-style {
@@ -37,5 +54,7 @@ body {
 }
 
 .counter-text-style {
-  font-size: 26px;
+  font-family: 'roboto', 'arial';
+  color: white;
+  font-size: 40px;
 }
