@@ -1,7 +1,5 @@
 # JSCounter
 
-Descrizione breve del progetto qui.
-
 ## Descrizione
 
 Progetto finale per il corso Start2Impact "Javascript Basic"
