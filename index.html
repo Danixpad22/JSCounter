@@ -6,10 +6,25 @@
   <title>Document</title>
   <style>
 
+    body {
+      background-color: rgb(231, 231, 231);
+    }
+
     .title-style {
       text-align: center;
       color:  red;
       padding: 10px;
+    }
+
+    .button-style-plus-minus {
+      width: 50px;
+      padding: 16px;
+      margin: 10px;
+      background-color: lightblue;
+      border: none;
+      font-size: 22px;
+      color: white;
+      border-radius: 10px;
     }
 
     .button-style {
@@ -50,10 +65,12 @@
     const resetButton = document.createElement('button');
 
     //Aggiungo classi per modifca stili css
+    
+    
     title.classList.add('title-style');
     divElement.classList.add('container-style');
-    plusButton.classList.add('button-style');
-    minusButton.classList.add('button-style');
+    plusButton.classList.add('button-style-plus-minus');
+    minusButton.classList.add('button-style-plus-minus');
     counterText.classList.add('counter-text-style');
     resetButton.classList.add('button-style');
 
