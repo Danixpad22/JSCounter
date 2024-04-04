@@ -11,6 +11,14 @@ const minusButton = document.createElement('button');
 const resetButton = document.createElement('button');
 const footer = document.createElement('footer');
 const textFooter = document.createElement('p');
+const gitHubLink = document.createElement('a');
+const gitHubIcon = document.createElement('img');
+
+// Impostazione del percorso dell'immagine di GitHub
+gitHubIcon.src = 'assets/img/github.svg';
+
+// Impostazione dell'URL desiderato
+gitHubLink.href = 'https://gist.github.com/Danixpad22'
 
 //Aggiungo classi per modifca stili css
 header.classList.add('header-style');
@@ -22,9 +30,12 @@ counterText.classList.add('counter-text-style');
 resetButton.classList.add('button-style');
 footer.classList.add('footer-style');
 textFooter.classList.add('text-footer-style');
+gitHubIcon.classList.add('icon-style');
+
+
 
 //Aggiunto testo
-title.textContent = 'COUNTER';
+title.textContent = 'JSCounter';
 plusButton.textContent = '+';
 minusButton.textContent = '-';
 counterText.textContent = '0';
@@ -42,8 +53,11 @@ divElement.appendChild(minusButton);
 divElement.appendChild(resetButton);
 footer.appendChild(textFooter);
 bodyElement.appendChild(footer);
-//funzione counter
+gitHubLink.appendChild(gitHubIcon);
+footer.appendChild(gitHubLink);
 
+
+//funzione counter
 let counter = 0;
 
 function plusCounter(){
