@@ -32,7 +32,7 @@ CSS
 
 JavaScript
 
-## Screen-Shot
+## Screenshot 
 
 ![JSCounter image](assets/img/jscounterscreen.png)
 
