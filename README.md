@@ -32,6 +32,11 @@ CSS
 
 JavaScript
 
+## Screen-Shot
+
+![JSCounter image](assets/img/jscounterscreen.png)
+
+
 # Link al sito
 <a href="https://danixpad22.github.io/JSCounter/">JSCounter<a>
 
